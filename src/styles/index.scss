@@ -1,0 +1,38 @@
+/** @format */
+
+@import "~bootstrap/scss/bootstrap";
+@import "~slick-carousel/slick/slick.css";
+@import "swiper/css/bundle";
+@import "node_modules/react-modal-video/scss/modal-video.scss";
+@import "../../public/assets/scss/main.scss";
+
+/* For Webkit browsers Chrome, Safari, Edge */
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--tp-theme-primary);
+}
+
+/* For Firefox */
+::-moz-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+::-moz-scrollbar-thumb {
+  background-color: var(--tp-theme-primary);
+}
+
+/* For Edge */
+::-ms-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+::-ms-scrollbar-thumb {
+  background-color: var(--tp-theme-primary);
+}
